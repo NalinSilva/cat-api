@@ -1,0 +1,34 @@
+{
+  "name": "cat-service",
+  "version": "1.0.0",
+  "description": "Cats as a Service: you can binds two cat with thier details",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node index.js",
+    "dev": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NalinSilva/cat-api.git"
+  },
+  "keywords": [
+    "cat",
+    "service",
+    "api"
+  ],
+  "author": "suranga silva",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NalinSilva/cat-api/issues"
+  },
+  "homepage": "https://github.com/NalinSilva/cat-api#readme",
+  "dependencies": {
+    "@mapbox/blend": "^2.0.1",
+    "minimist": "^1.2.7",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "jest": "^29.3.1"
+  }
+}
